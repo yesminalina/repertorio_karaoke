@@ -1,0 +1,26 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "desafío CRUD con Express JS",
+  "main": "index.js",
+  "type": "module",
+  "eslintConfig": {
+    "extends": [
+      "node_modules/standard/eslintrc.json"
+    ]
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Yesminalina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.0"
+  }
+}
